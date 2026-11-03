@@ -1,0 +1,30 @@
+{
+  "name": "cartweave-chronoscart",
+  "version": "1.0.0",
+  "description": "CartWeave (ChronosCart): Autonomous Multi-Merchant Procurement & Time-Physics Engine for the PayPal AI Hackathon",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client install --legacy-peer-deps && npm --prefix client run build",
+    "test": "node test-verification.js"
+  },
+  "keywords": [
+    "paypal",
+    "agentic-commerce",
+    "channel3",
+    "bryntum",
+    "gemini-3-flash",
+    "chronoscart",
+    "cartweave"
+  ],
+  "author": "CartWeave Contributors",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "openai": "^7.45.1"
+  }
+}
