@@ -95,7 +95,7 @@ When testing the **1-Click PayPal Multi-Merchant Checkout** in the right-hand Se
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/KingPraise/cartweave-agent.git
 cd cartweave-agent
 npm install
 npm --prefix client install --legacy-peer-deps

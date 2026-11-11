@@ -4,4 +4,5 @@ client/dist/
 .env
 .env.local
 *.log
+*.pdf
 .DS_Store
